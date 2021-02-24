@@ -25,6 +25,6 @@ const citiesReducer = (state = initialState, action) => {
 }
 
 
-export const setActiveCityAC = (cityId) => ({ type: SET_ACTIVE_CITY, cityId})
+export const setActiveCityAC = (cityId) => ({type: SET_ACTIVE_CITY, cityId})
 
 export default citiesReducer

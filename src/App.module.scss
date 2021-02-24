@@ -1,0 +1,32 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.app {
+    background: url("./static/images/tok-bg.jpg") no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: "Khand", sans-serif;
+}
+
+.appBody {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 43px);
+}
+
+.forecastWindow {
+    display: flex;
+    min-height: 300px;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    background: #ffffff8c;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}

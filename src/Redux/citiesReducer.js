@@ -2,10 +2,10 @@ const SET_ACTIVE_CITY = 'SET_ACTIVE_CITY'
 
 let initialState = {
     cities: [
-        {name: "Palo Alto", zip: "94303", id: 0, isActive: true},
-        {name: "San Jose", zip: "94088", id: 1, isActive: false},
-        {name: "Santa Cruz", zip: "95062", id: 2, isActive: false},
-        {name: "Honolulu", zip: "96803", id: 3, isActive: false}
+        {name: "London", id: 0, isActive: true},
+        {name: "Krakow", id: 1, isActive: false},
+        {name: "Naples", id: 2, isActive: false},
+        {name: "Dubai", id: 3, isActive: false}
     ]
 }
 

@@ -8,10 +8,10 @@ const Sidebar = (props) => {
             <h2>Select a city</h2>
 
             <ul>
-                {props.cities.map(city => <li key={city.id}>
+                {props.cities.map(city => <li key={city.cityId}>
                     <button className={cn(s.cityButton, {
-                    [s.activeCityButton]: props.cities[city.id].isActive
-                    })} onClick={() => {props.setActiveCity(city.id)}}>{city.name}</button>
+                    [s.activeCityButton]: props.cities[city.cityId].isActive
+                    })} onClick={() => {props.setActiveCity(city.cityId)}}>{city.name}</button>
                 </li>)}
             </ul>
         </aside>

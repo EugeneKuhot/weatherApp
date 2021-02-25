@@ -17,6 +17,6 @@
   cursor: pointer;
 }
 
-.activeCityButton {
+.activeCityButton, .activeCityButton:focus {
   background: linear-gradient(180deg, transparent, #fff);
 }

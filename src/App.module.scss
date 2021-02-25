@@ -7,12 +7,28 @@ ul {
     list-style: none;
 }
 
+.london {
+    background: url("static/images/lon-bg.jpg") no-repeat;
+}
+
+.krakow {
+    background: url("static/images/krk-bg.jpg") no-repeat;
+}
+
+.naples {
+    background: url("static/images/nap-bg.jpg") no-repeat;
+}
+
+.dubai {
+    background: url("static/images/dub-bg.jpg") no-repeat;
+}
+
 .app {
-    background: url("./static/images/tok-bg.jpg") no-repeat;
     background-size: cover;
     min-height: 100vh;
     font-family: "Khand", sans-serif;
 }
+
 
 .appBody {
     display: flex;

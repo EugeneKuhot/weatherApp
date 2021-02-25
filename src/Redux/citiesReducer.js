@@ -15,8 +15,8 @@ const citiesReducer = (state = initialState, action) => {
             debugger
             return {
                 ...state,
-                ...state.cities.forEach(city => city.isActive = false),
-                ...state.cities[action.cityId].isActive = true
+                /*...state.cities.forEach(city => city.isActive = false),*/
+                cities: [...state.cities, {name: "Krakow", id: 1, isActive: true}]
             }
 
         default:

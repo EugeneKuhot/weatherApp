@@ -7,28 +7,33 @@ ul {
     list-style: none;
 }
 
-.london {
+.app.london {
     background: url("static/images/lon-bg.jpg") no-repeat;
+    background-size: cover;
+    min-height: 100vh;
 }
 
 .krakow {
     background: url("static/images/krk-bg.jpg") no-repeat;
+    background-size: cover;
+    min-height: 100vh;
 }
 
 .naples {
     background: url("static/images/nap-bg.jpg") no-repeat;
+    background-size: cover;
+    min-height: 100vh;
 }
 
 .dubai {
     background: url("static/images/dub-bg.jpg") no-repeat;
+    background-size: cover;
+    min-height: 100vh;
 }
 
 .app {
-    background-size: cover;
-    min-height: 100vh;
     font-family: "Khand", sans-serif;
 }
-
 
 .appBody {
     display: flex;

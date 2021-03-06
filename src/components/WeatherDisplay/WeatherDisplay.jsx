@@ -1,6 +1,6 @@
 import React from 'react'
 import s from './WeatherDisplay.module.scss'
-import ForecastBlock from "./ForecastBlock/ForecastBlock";
+import ForecastBlock from "./ForecastBlock/ForecastBlock"
 
 const WeatherDisplay = (props) => {
     return (
